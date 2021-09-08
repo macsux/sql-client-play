@@ -200,6 +200,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Data.SqlClient.Do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Data.SqlClient.PerformanceTests", "Microsoft.Data.SqlClient\tests\PerformanceTests\Microsoft.Data.SqlClient.PerformanceTests.csproj", "{599A336B-2A5F-473D-8442-1223ED37C93E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayApp", "PlayApp\PlayApp.csproj", "{9994B6F1-7DF2-496F-B296-43D666FAD958}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -472,6 +474,18 @@ Global
 		{599A336B-2A5F-473D-8442-1223ED37C93E}.Release|x64.Build.0 = Release|x64
 		{599A336B-2A5F-473D-8442-1223ED37C93E}.Release|x86.ActiveCfg = Release|x86
 		{599A336B-2A5F-473D-8442-1223ED37C93E}.Release|x86.Build.0 = Release|x86
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Debug|x64.Build.0 = Debug|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Debug|x86.Build.0 = Debug|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Release|x64.ActiveCfg = Release|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Release|x64.Build.0 = Release|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Release|x86.ActiveCfg = Release|Any CPU
+		{9994B6F1-7DF2-496F-B296-43D666FAD958}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

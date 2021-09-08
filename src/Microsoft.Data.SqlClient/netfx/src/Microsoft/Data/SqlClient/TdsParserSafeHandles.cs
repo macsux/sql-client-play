@@ -20,7 +20,7 @@ namespace Microsoft.Data.SqlClient
         internal readonly SNINativeMethodWrapper.SqlAsyncCallbackDelegate WriteAsyncCallbackDispatcher = new SNINativeMethodWrapper.SqlAsyncCallbackDelegate(WriteDispatcher);
 
         private readonly UInt32 _sniStatus = TdsEnums.SNI_UNINITIALIZED;
-        private readonly EncryptionOptions _encryptionOption = EncryptionOptions.OFF;
+        private readonly EncryptionOptions _encryptionOption = EncryptionOptions.NOT_SUP;
         private bool? _clientOSEncryptionSupport = null;
 
         private SNILoadHandle() : base(IntPtr.Zero, true)
